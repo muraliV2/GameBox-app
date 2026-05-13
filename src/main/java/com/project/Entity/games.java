@@ -19,8 +19,6 @@ private String title;
 private String genre;
 private String platform;
 private String Releasedyear;
-
-
 @ManyToOne
 @JoinColumn(name = "user_id")
 private user user;
