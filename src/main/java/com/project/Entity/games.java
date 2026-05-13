@@ -29,7 +29,6 @@ user.getListofgame().add(this);
 }
 @OneToMany(mappedBy = "games")
 private List<review> gamereviews = new ArrayList<review>();
-
 public void addgamereview(review rev)
 {
 gamereviews.add(rev);
