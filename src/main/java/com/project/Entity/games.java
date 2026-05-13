@@ -35,7 +35,6 @@ gamereviews.add(rev);
 rev.setGame(this);
 
 }
-
 public void removegamereview(review rev)
 {
 gamereviews.remove(rev);
