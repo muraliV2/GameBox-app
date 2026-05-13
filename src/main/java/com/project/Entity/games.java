@@ -14,7 +14,6 @@ import lombok.Data;
 @Data
 @Entity
 public class games {
-
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 private int GameId;
