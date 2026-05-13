@@ -22,7 +22,6 @@ private String Releasedyear;
 @ManyToOne
 @JoinColumn(name = "user_id")
 private user user;
-
 public void adduser(user user)
 {
 this.user = user;
