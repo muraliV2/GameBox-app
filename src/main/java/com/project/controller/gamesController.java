@@ -44,7 +44,6 @@ public ResponseEntity<?> deletegame(@PathVariable int GameId)
 ResponseStructure<String> structure = gameservice.deletegame(GameId);
 return new ResponseEntity<>(structure,HttpStatus.OK);
 }
-
 @GetMapping("/get/{GameId}")
 public ResponseEntity<?> getgamesbyid(@PathVariable int GameId)
 {
