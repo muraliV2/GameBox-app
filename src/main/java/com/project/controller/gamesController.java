@@ -49,7 +49,6 @@ public ResponseEntity<?> getgamesbyid(@PathVariable int GameId)
 {
 ResponseStructure<gamesdto> structure = gameservice.getgamesbyid(GameId);
 return new ResponseEntity<>(structure,HttpStatus.OK);
-
 }
 @GetMapping("/get/{title}")
 public ResponseEntity<?> getgamebyname(@PathVariable String title)
