@@ -38,7 +38,6 @@ public List<gamesdto> getgames()
 	return gameservice.getgames();
 }
 
-
 @DeleteMapping("/{GameId}")
 public ResponseEntity<?> deletegame(@PathVariable int GameId)
 {
