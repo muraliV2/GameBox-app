@@ -57,7 +57,6 @@ public ResponseEntity<?> getgamebyname(@PathVariable String title)
 ResponseStructure<gamesdto> structure = gameservice.getgamebyname(title);
 return new ResponseEntity<>(structure,HttpStatus.OK);
 }
-
 @PutMapping("update/{GameId}")
 public ResponseEntity<?> updategame(@PathVariable int GameId,@RequestBody gamesdto dto)
 {
